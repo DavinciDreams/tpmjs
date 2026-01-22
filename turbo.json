@@ -6,6 +6,14 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**", "storybook-static/**"]
     },
+    "@tpmjs/db#build": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "@tpmjs/storybook#build": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
     "dev": {
       "cache": false,
       "persistent": true
