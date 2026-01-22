@@ -26,12 +26,16 @@ pnpm-debug.log*
 # local env files
 .env*.local
 .env
+.env.production
+.env.vercel.*
 
 # turbo
 .turbo
 
 # typescript
 *.tsbuildinfo
+tsconfig.json
+tsconfig.*.json
 
 # ide
 .idea
@@ -44,3 +48,8 @@ storybook-static
 !.changeset/README.md
 .vercel
 packages/tool-ideas/data/tools-export.json
+packages/mocks/tsup.config.bundled_eafrj1kbk1.mjs
+packages/tools/official/campaign-brief/tsup.config.bundled_bf0gawn0xy.mjs
+packages/tools/official/exit-interview-summarize/tsup.config.bundled_setmdez0wd.mjs
+packages/tools/official/markdown-lint-basic/tsup.config.bundled_gpnkbfmmm4w.mjs
+*.tsup.config.bundled_*.mjs

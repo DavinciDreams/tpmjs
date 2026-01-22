@@ -1,2 +1,10 @@
 .vercel
 .env*.local
+
+# Ignore all tsup build configs (including bundled output)
+.tsup.config.*.mjs
+
+# Ignore environment files for production and development
+**/env.production
+**/env.dev
+**/env.test
