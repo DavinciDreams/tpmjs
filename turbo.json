@@ -1,5 +1,17 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalEnv": [
+    "VERCEL_URL",
+    "VERCEL_ENV",
+    "VERCEL_GIT_COMMIT_SHA",
+    "VERCEL_GIT_COMMIT_REF",
+    "VERCEL_GIT_COMMIT_MESSAGE",
+    "VERCEL_GIT_COMMIT_AUTHOR_NAME",
+    "VERCEL_GIT_COMMIT_AUTHOR_EMAIL",
+    "VERCEL_GIT_REPO_SLUG",
+    "VERCEL_GIT_REPO_OWNER",
+    "VERCEL_GIT_REPO_ID"
+  ],
   "globalDependencies": ["**/.env.*local", "tsconfig.json"],
   "tasks": {
     "build": {
